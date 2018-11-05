@@ -84,9 +84,9 @@ def main():
                 lower_group.mean(),
                 discrimination_rate],
                 axis=1)
-        data_frame_result.columns = ['upper_group_difficulty',
-                          'lower_group_mean',
-                          'discrimination_rate']
+        data_frame_result.columns = ['upper_difficulty',
+                          'lower_difficulty',
+                          'discrimination']
 
         # TODO classify questions difficulty
 

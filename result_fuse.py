@@ -39,17 +39,17 @@ def main():
         data_frame_final = pd.concat([data_frame_first, data_frame_last],
                                      axis =1)
         
-        data_frame_final['discrimination_diference'] = (
-                data_frame_final['discrimination_rate_last']
-                - data_frame_final['discrimination_rate_first'])
+        data_frame_final['discri_dif'] = (
+                data_frame_final['discrimination_last']
+                - data_frame_final['discrimination_first'])
 
         folder, file_name = os.path.split(first_file)
         folder = folder + '/'
         new_file_name = file_name[:-9] + 'final.xlsx'
         data_frame_final.to_excel(folder + new_file_name, index=True)
         
-        #os.remove(first_list[index])
-        #os.remove(last_list[index])
+        os.remove(first_list[index])
+        os.remove(last_list[index])
 
 
 if __name__ == '__main__':

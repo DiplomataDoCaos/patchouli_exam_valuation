@@ -19,7 +19,7 @@ PADRONIZED_FOLDER = './padronized'
 RESULTS_FOLDER = './results'
 PERCENTILE = 0.27
 CONSIDERATED_TRY = 'both'  # input 'first' or 'last' or 'both'
-JOIN_CLASSES = False
+JOIN_CLASSES = True
 USELESS_INFO_USP = [
         'Sobrenome',
         'Nome',
@@ -43,3 +43,19 @@ USELESS_INFO_MACK = [
         'Tempo utilizado'
         ]
 IDENTIFIER_MACK = ['Endereço de email']
+JOIN_ACTIVITIES =[
+        'Atividade Virtual 1-first',
+        'Atividade Virtual 1-last',
+        'Atividade Virtual 2-first',
+        'Atividade Virtual 2-last',
+        'Atividade Virtual 3-first',
+        'Atividade Virtual 3-last',
+        'Atividade Virtual 4-first',
+        'Atividade Virtual 4-last',
+        'Atividade Virtual 5-first',
+        'Atividade Virtual 5-last',
+        'Atividade Virtual 6-first',
+        'Atividade Virtual 6-last',
+        'Atividade Virtual 7-first',
+        'Atividade Virtual 7-last'
+        ]

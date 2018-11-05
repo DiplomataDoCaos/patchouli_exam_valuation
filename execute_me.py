@@ -18,6 +18,7 @@ import class_fuse
 import result_fuse
 
 
+
 def main():
     """
     This is the main method
